@@ -1,4 +1,7 @@
 # Java_assignment_1
+This Java utility is designed to perform various operations on a CSV file containing country temperature data. Follow the steps below to use the utility:
+
+
 To use this Java utility run the following command:
 
 java -jar Utility.jar
