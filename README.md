@@ -5,9 +5,9 @@ java -jar Utility.jar
 
 
 
-Then give the input file location(sample: Users/user1/Desktop/application/input.csv);
+Then give the input file location(sample: Users/user1/Desktop/application/input.csv) as input;
 
-Then give the output file location(sample: Users/user1/Desktop/application/output.csv);
+Then give the output file location(sample: Users/user1/Desktop/application/output.csv) as input;
 
 Then give any operation from (sort/convert/add/edit/delete/quit) as input.
 
