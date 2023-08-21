@@ -1,6 +1,9 @@
 # Java_assignment_1
 To use this Java utility run the following command:
+
 java -jar Utility.jar
+
+
 
 Then give the input file location(sample: Users/user1/Desktop/application/input.csv),
 Then give the output file location(sample: Users/user1/Desktop/application/output.csv),
