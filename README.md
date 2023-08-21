@@ -27,4 +27,9 @@ if 'edit' is given as an input, then it will first display all the rows of the f
 
 if 'add' is given as an input, It will first display all the rows of the file along with their Row numbers. Then it asks for the row number which you want to delete. Then provide that number to delete that row and the changes will be saved in the input file
 
+If any of the operations from (sort/convert/add/edit/delete) are selected then again it gives you the option of choosing any operations that you want to do on the updated CSV file.
+
+
+if you want to close the application, give 'quit' as the input.
+
 
