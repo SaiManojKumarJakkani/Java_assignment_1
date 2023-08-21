@@ -13,7 +13,11 @@ if 'convert' is given as an input, then all the values of th temperature in the 
 
 if 'add' is given as an input, then it will ask for Enter Country Name and then Enter Temperature in Celsius. Provide those input and changes will be saved in the input file
 
+if 'edit' is given as an input, then it will first display all the rows of the file along with their Row numbers. Then it asks for the row number which you want to edit. After providing that input it asks for  "Which one would you like to edit:
+ 1:country 
+ 2:temperature?: ". Then please provide the appropriate option number. Then provide the corresponding input. Then the changes will be saved in the input file
 
 
+if 'add' is given as an input, It will first display all the rows of the file along with their Row numbers. Then it asks for the row number which you want to delete. Then provide that number to delete that row and the changes will be saved in the input file
 
 
