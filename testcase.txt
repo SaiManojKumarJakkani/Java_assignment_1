@@ -1,0 +1,87 @@
+Sample Data in CSV:
+        Country name,temperature
+        India,35
+        USA,10
+        UK,18
+        china,23
+
+
+TEST CASE 1:
+Use-case:: Adding duplicate record value
+Input::
+        Country Name: India
+        Temperature in Celsius: 43
+Expected Output::
+        USA,10
+        UK,18
+        china,23
+        India,43
+Actual Output::
+        USA,10
+        UK,18
+        china,23
+        India,43
+
+
+TEST CASE 2:
+Use-case:: Editing the country name of already existing country name record
+Input::
+        Enter the row number to edit: 4
+        Which one would you like to edit 1)Country Name; 2) Temperature?: 1
+        Enter Country name: China
+Expected Output::
+        India,43
+        USA,10
+        UK,18
+        china,23
+Actual Output::
+        java.lang. IndexOutOfBoundsException: Index: 3, Size: 3
+
+
+TEST CASE 3:
+Use-case:: Case Sensitive Sorting
+Input::
+        Enter operation type (sort/convert/add/edit/delete/quit): sort
+Expected Output::
+        china,23
+        India,43
+        USA,10
+        UK,18
+Actual Output::
+        India,43
+        USA,10
+        UK,18
+        china,23
+
+
+TEST CASE 4:
+Use-case:: Adding empty country name and temperature value record
+Input::
+        Country Name:
+        Temperature in Celsius:
+Expected Output::
+        Null values are not accepted. Please try again
+Actual Output::
+        Null values are not accepted. Please try again
+
+
+TEST CASE 5:
+Use-case:: Adding invalid temperature value
+Input::
+        Country Name: Russia
+        Temperature in Celsius: ten
+Expected Output::
+        Please enter valid values for temperature. Please try again
+Actual Output::
+        Please enter valid values for temperature. Please try again
+
+
+TEST CASE 6:
+Use-case:: Entering invalid row number while editing or deleting
+Input::
+        Enter the row number to edit: -1
+Expected Output::
+        Please enter valid row number:
+Actual Output::
+        Please enter valid row number:
+
